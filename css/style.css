@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap");
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    margin-top: 40px;
+    font-family: Bruno Ace SC;
+}
+
+.generator_box {
+    font-family: Chakra Petch;
+    width: 300px;
+    height: 68px;
+    margin: 0 auto;
+    background-color: rgb(15, 15, 15);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px aqua;
+}
+
+.length {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+.length_input{
+    width: 30%;
+}
+
+button{
+    width: 64%;
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+    font-family: Chakra Petch;
+}
+
+button:active{
+    color: red;
+    transition: 0.1s;
+}
+
+.result{
+    padding-top: 10px;
+    color: red;
+    font-size: 13px;
+    text-align: center;
+}
